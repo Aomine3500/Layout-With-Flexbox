@@ -1,0 +1,14 @@
+.container {
+    border: 5px solid blue;
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.container div {
+    width: 350px;
+    height: 100px;
+    margin: 1.5rem;
+    border: 2px solid black;
+    background-color: gainsboro;
+    text-align: center;
+}
