@@ -32,3 +32,38 @@
     text-align: center;
 }
 /* CSS For Flex Direction Row */
+
+/* CSS For Flex Direction Column-Reverse */
+.column-reverse {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.column-reverse div {
+    width: 300px;
+    height: 150px;
+    margin: 1.2rem;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+/* CSS For Flex Direction Column-Reverse */
+
+/* CSS For Flex Direction Row-Reverse */
+.row-reverse {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.row-reverse div {
+    width: 300px;
+    height: 150px;
+    margin: 1.2rem;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+/* CSS For Flex Direction Row */
