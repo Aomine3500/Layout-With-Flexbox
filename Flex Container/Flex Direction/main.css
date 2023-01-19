@@ -1,0 +1,34 @@
+/* CSS For Flex Direction Column */
+.column {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.column div {
+    width: 300px;
+    height: 150px;
+    margin: 1.2rem;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+/* CSS For Flex Direction Column */
+
+/* CSS For Flex Direction Row */
+.row {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row div {
+    width: 300px;
+    height: 150px;
+    margin: 1.2rem;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+/* CSS For Flex Direction Row */
