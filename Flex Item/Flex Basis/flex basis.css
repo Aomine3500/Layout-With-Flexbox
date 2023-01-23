@@ -1,0 +1,43 @@
+.C1 {
+    display: flex;
+    margin: 50px 15px;
+}
+
+.C1 div {
+    border: 2px solid black;
+    height: 100px;
+    flex-basis: 400px;
+}
+
+.flex1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex2 {
+    flex-grow: 8;
+    flex-shrink: 8;
+}
+
+.C2 {
+    display: flex;
+    margin: 50px 15px;
+}
+
+.C2 div {
+    border: 2px solid black;
+    height: 100px;
+    flex-basis: 33%;
+}
+
+/* in this example flex grow & flex shrink are obslete, they do nothing */
+
+.basis1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.basis2 {
+    flex-grow: 2;
+    flex-shrink: 8;
+}
