@@ -1,0 +1,39 @@
+.C1 {
+    display: flex;
+    margin: 20px 0;
+    border: 5px solid red;
+}
+
+.C1 div {
+    flex: 1 1 auto;
+    /* flex-grow; flex-shrink, flex-basis */
+    width: 400px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+
+.C2 {
+    display: flex;
+    margin: 20px 0;
+    border: 5px solid green;
+}
+
+.C2 div {
+    flex: 0 1 auto;
+    /* flex-grow; flex-shrink, flex-basis */
+    width: 400px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid green;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#wahoo {
+    flex: 0 2 auto;
+    /* flex-grow; flex-shrink, flex-basis */
+}
